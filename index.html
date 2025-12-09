@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <!-- Èñïðàâëåíî: óäàëåí äóáëèðóþùèéñÿпривет charset, îáúåäèíåíû ìåòà-òåãè -->
+    <!-- Исправлено: удален дублирующийся charset, объединены мета-теги -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dkey Group - Àðõèòåêòóðà è Äèçàéí</title>
+    <title>Dkey Group - Архитектура и Дизайн</title>
 
-    <!-- Èñïðàâëåíî: ïðåäçàãðóçêà øðèôòîâ ïåðåä ïîäêëþ÷åíèåì -->
+    <!-- Исправлено: предзагрузка шрифтов перед подключением -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -29,32 +29,32 @@
     <header class="header">
         <div class="container">
             <nav class="navbar">
-                <!-- Ëîãîòèï -->
-                <a href="#home" class="logo" aria-label="Dkey Group - Íà ãëàâíóþ">
+                <!-- Логотип -->
+                <a href="#home" class="logo" aria-label="Dkey Group - На главную">
                     <span class="logo-text">BAYEV</span>
                     <span class="logo-sub">GROUP</span>
                 </a>
 
-                <!-- Íàâèãàöèîííîå ìåíþ -->
+                <!-- Навигационное меню -->
                 <ul class="nav-menu">
-                    <li class="nav-item"><a href="#home" class="nav-link active">Ãëàâíàÿ</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">Î íàñ</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link">Óñëóãè</a></li>
-                    <li class="nav-item"><a href="#portfolio" class="nav-link">Ïðîåêòû</a></li>
-                    <li class="nav-item"><a href="#team" class="nav-link">Êîìàíäà</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Êîíòàêòû</a></li>
+                    <li class="nav-item"><a href="#home" class="nav-link active">Главная</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">О нас</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Услуги</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link">Команда</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
                 </ul>
 
-                <!-- ßçûê è ìåíþ -->
+                <!-- Язык и меню -->
                 <div class="header-actions">
                     <div class="language-switcher">
-                        <button class="lang-btn active" aria-label="Ðóññêèé ÿçûê">RU</button>
+                        <button class="lang-btn active" aria-label="Русский язык">RU</button>
                         <span class="lang-divider">/</span>
-                        <button class="lang-btn" aria-label="Àíãëèéñêèé ÿçûê">EN</button>
+                        <button class="lang-btn" aria-label="Английский язык">EN</button>
                     </div>
 
-                    <!-- Êíîïêà ìîáèëüíîãî ìåíþ -->
-                    <button class="hamburger" aria-label="Ìåíþ" aria-expanded="false">
+                    <!-- Кнопка мобильного меню -->
+                    <button class="hamburger" aria-label="Меню" aria-expanded="false">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -67,14 +67,14 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-background">
-            <!-- Âèäåî ôîí -->
+            <!-- Видео фон -->
             <div class="video-overlay"></div>
             <div class="video-container">
                 <video autoplay muted loop playsinline class="hero-video" aria-hidden="true">
                     <source src="https://assets.mixkit.co/videos/preview/mixkit-architectural-design-of-a-modern-house-41578-large.mp4" type="video/mp4">
-                    Âàø áðàóçåð íå ïîääåðæèâàåò âèäåî.
+                    Ваш браузер не поддерживает видео.
                 </video>
-                <!-- Fallback èçîáðàæåíèå åñëè âèäåî íå çàãðóçèòñÿ -->
+                <!-- Fallback изображение если видео не загрузится -->
                 <div class="video-fallback"></div>
             </div>
         </div>
@@ -82,21 +82,21 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    <span class="title-line">ÀÐÕÈÒÅÊÒÓÐÀ</span>
-                    <span class="title-line">È ÄÈÇÀÉÍ</span>
+                    <span class="title-line">АРХИТЕКТУРА</span>
+                    <span class="title-line">И ДИЗАЙН</span>
                 </h1>
 
                 <div class="hero-subtitle">
-                    <p>Ñîçäàåì óíèêàëüíûå ïðîñòðàíñòâà, êîòîðûå âäîõíîâëÿþò è îòðàæàþò âàøó èíäèâèäóàëüíîñòü</p>
+                    <p>Создаем уникальные пространства, которые вдохновляют и отражают вашу индивидуальность</p>
                 </div>
 
                 <div class="hero-actions">
                     <a href="#portfolio" class="btn btn-primary">
-                        <span>Ñìîòðåòü ïðîåêòû</span>
+                        <span>Смотреть проекты</span>
                         <i class="fas fa-arrow-right" aria-hidden="true"></i>
                     </a>
                     <a href="#contact" class="btn btn-secondary">
-                        <span>Îáñóäèòü ïðîåêò</span>
+                        <span>Обсудить проект</span>
                         <i class="fas fa-envelope" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -113,7 +113,7 @@
             </div>
         </div>
 
-        <!-- Ñîöèàëüíûå ñåòè â hero -->
+        <!-- Социальные сети в hero -->
         <div class="hero-social">
             <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -127,39 +127,39 @@
         <section class="section about" id="about">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Î ÊÎÌÏÀÍÈÈ</h2>
-                    <p class="section-subtitle">Dkey Group — âåäóùàÿ àðõèòåêòóðíàÿ ñòóäèÿ, ñîçäàþùàÿ óíèêàëüíûå ïðîñòðàíñòâà ñ 2010 ãîäà</p>
+                    <h2 class="section-title">О КОМПАНИИ</h2>
+                    <p class="section-subtitle">Dkey Group — ведущая архитектурная студия, создающая уникальные пространства с 2010 года</p>
                 </div>
 
                 <div class="about-content">
                     <div class="about-text">
-                        <h3 class="about-heading">Ìû ñîçäàåì àðõèòåêòóðó, êîòîðàÿ âäîõíîâëÿåò</h3>
+                        <h3 class="about-heading">Мы создаем архитектуру, которая вдохновляет</h3>
                         <p class="about-description">
-                            Íàøà êîìàíäà îáúåäèíÿåò ëó÷øèõ àðõèòåêòîðîâ, äèçàéíåðîâ è èíæåíåðîâ äëÿ ðåàëèçàöèè
-                            ïðîåêòîâ ëþáîé ñëîæíîñòè. Ìû ðàáîòàåì ñ ÷àñòíûìè êëèåíòàìè è êðóïíûìè äåâåëîïåðàìè,
-                            ñîçäàâàÿ ðåøåíèÿ, êîòîðûå ñî÷åòàþò ýñòåòèêó, ôóíêöèîíàëüíîñòü è èííîâàöèè.
+                            Наша команда объединяет лучших архитекторов, дизайнеров и инженеров для реализации
+                            проектов любой сложности. Мы работаем с частными клиентами и крупными девелоперами,
+                            создавая решения, которые сочетают эстетику, функциональность и инновации.
                         </p>
                         <p class="about-description">
-                            Êàæäûé ïðîåêò — ýòî óíèêàëüíàÿ èñòîðèÿ, â êîòîðîé ìû ó÷èòûâàåì âñå ïîæåëàíèÿ êëèåíòà,
-                            îñîáåííîñòè ìåñòíîñòè è ñîâðåìåííûå òåíäåíöèè â àðõèòåêòóðå è äèçàéíå.
+                            Каждый проект — это уникальная история, в которой мы учитываем все пожелания клиента,
+                            особенности местности и современные тенденции в архитектуре и дизайне.
                         </p>
 
                         <div class="about-stats">
                             <div class="stat-item">
                                 <div class="stat-number" data-count="150">0</div>
-                                <div class="stat-label">Çàâåðøåííûõ ïðîåêòîâ</div>
+                                <div class="stat-label">Завершенных проектов</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-number" data-count="12">0</div>
-                                <div class="stat-label">Ëåò îïûòà</div>
+                                <div class="stat-label">Лет опыта</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-number" data-count="25">0</div>
-                                <div class="stat-label">Ïðîôåññèîíàëîâ â êîìàíäå</div>
+                                <div class="stat-label">Профессионалов в команде</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-number" data-count="50">0</div>
-                                <div class="stat-label">Íàãðàä è ïðåìèé</div>
+                                <div class="stat-label">Наград и премий</div>
                             </div>
                         </div>
                     </div>
@@ -167,10 +167,10 @@
                     <div class="about-image">
                         <div class="image-container">
                             <img src="https://images.unsplash.com/photo-1487956382158-bb926046304a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                                 alt="Àðõèòåêòóðíûé ïðîåêò Dkey Group" class="about-img" loading="lazy">
+                                 alt="Архитектурный проект Dkey Group" class="about-img" loading="lazy">
                             <div class="image-overlay">
                                 <div class="overlay-content">
-                                    <span class="overlay-text">Ñ 2010 ãîäà</span>
+                                    <span class="overlay-text">С 2010 года</span>
                                     <span class="overlay-line"></span>
                                 </div>
                             </div>
@@ -183,32 +183,32 @@
                         <div class="feature-icon">
                             <i class="fas fa-lightbulb" aria-hidden="true"></i>
                         </div>
-                        <h3 class="feature-title">Èííîâàöèè</h3>
-                        <p class="feature-text">Èñïîëüçóåì ïåðåäîâûå òåõíîëîãèè è ìàòåðèàëû â êàæäîì ïðîåêòå</p>
+                        <h3 class="feature-title">Инновации</h3>
+                        <p class="feature-text">Используем передовые технологии и материалы в каждом проекте</p>
                     </div>
 
                     <div class="feature-card">
                         <div class="feature-icon">
                             <i class="fas fa-ruler-combined" aria-hidden="true"></i>
                         </div>
-                        <h3 class="feature-title">Òî÷íîñòü</h3>
-                        <p class="feature-text">Äåòàëüíàÿ ïðîðàáîòêà êàæäîãî ýëåìåíòà äî ìèëëèìåòðà</p>
+                        <h3 class="feature-title">Точность</h3>
+                        <p class="feature-text">Детальная проработка каждого элемента до миллиметра</p>
                     </div>
 
                     <div class="feature-card">
                         <div class="feature-icon">
                             <i class="fas fa-handshake" aria-hidden="true"></i>
                         </div>
-                        <h3 class="feature-title">Íàäåæíîñòü</h3>
-                        <p class="feature-text">Ñîáëþäåíèå ñðîêîâ è áþäæåòà íà âñåõ ýòàïàõ ðàáîòû</p>
+                        <h3 class="feature-title">Надежность</h3>
+                        <p class="feature-text">Соблюдение сроков и бюджета на всех этапах работы</p>
                     </div>
 
                     <div class="feature-card">
                         <div class="feature-icon">
                             <i class="fas fa-heart" aria-hidden="true"></i>
                         </div>
-                        <h3 class="feature-title">Ýñòåòèêà</h3>
-                        <p class="feature-text">Ñîçäàåì ãàðìîíè÷íûå ïðîñòðàíñòâà, êîòîðûå ðàäóþò ãëàç</p>
+                        <h3 class="feature-title">Эстетика</h3>
+                        <p class="feature-text">Создаем гармоничные пространства, которые радуют глаз</p>
                     </div>
                 </div>
             </div>
@@ -218,153 +218,153 @@
         <section class="section services" id="services">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">ÍÀØÈ ÓÑËÓÃÈ</h2>
-                    <p class="section-subtitle">Ïîëíûé ñïåêòð óñëóã â îáëàñòè àðõèòåêòóðû è äèçàéíà</p>
+                    <h2 class="section-title">НАШИ УСЛУГИ</h2>
+                    <p class="section-subtitle">Полный спектр услуг в области архитектуры и дизайна</p>
                 </div>
 
                 <div class="services-grid">
-                    <!-- Óñëóãà 1 -->
+                    <!-- Услуга 1 -->
                     <div class="service-card">
                         <div class="service-icon">
                             <div class="icon-background"></div>
                             <i class="fas fa-home" aria-hidden="true"></i>
                         </div>
-                        <h3 class="service-title">Àðõèòåêòóðíîå ïðîåêòèðîâàíèå</h3>
+                        <h3 class="service-title">Архитектурное проектирование</h3>
                         <p class="service-description">
-                            Ðàçðàáîòêà êîíöåïöèé, ýñêèçíîå è ðàáî÷åå ïðîåêòèðîâàíèå æèëûõ è êîììåð÷åñêèõ îáúåêòîâ ëþáîé ñëîæíîñòè.
+                            Разработка концепций, эскизное и рабочее проектирование жилых и коммерческих объектов любой сложности.
                         </p>
                         <ul class="service-list">
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Æèëûå äîìà</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Îáùåñòâåííûå çäàíèÿ</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Òîðãîâûå öåíòðû</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Îôèñíûå êîìïëåêñû</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Жилые дома</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Общественные здания</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Торговые центры</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Офисные комплексы</li>
                         </ul>
                         <a href="#contact" class="service-link">
-                            <span>Óçíàòü áîëüøå</span>
+                            <span>Узнать больше</span>
                             <i class="fas fa-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
 
-                    <!-- Óñëóãà 2 -->
+                    <!-- Услуга 2 -->
                     <div class="service-card">
                         <div class="service-icon">
                             <div class="icon-background"></div>
                             <i class="fas fa-paint-roller" aria-hidden="true"></i>
                         </div>
-                        <h3 class="service-title">Äèçàéí èíòåðüåðîâ</h3>
+                        <h3 class="service-title">Дизайн интерьеров</h3>
                         <p class="service-description">
-                            Ñîçäàíèå óíèêàëüíûõ èíòåðüåðîâ, êîòîðûå îòðàæàþò õàðàêòåð è ïîòðåáíîñòè êëèåíòà, îò êîíöåïöèè äî ðåàëèçàöèè.
+                            Создание уникальных интерьеров, которые отражают характер и потребности клиента, от концепции до реализации.
                         </p>
                         <ul class="service-list">
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Æèëûå èíòåðüåðû</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Ðåñòîðàíû è êàôå</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Îôèñíûå ïðîñòðàíñòâà</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Ðîçíè÷íûå ìàãàçèíû</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Жилые интерьеры</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Рестораны и кафе</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Офисные пространства</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Розничные магазины</li>
                         </ul>
                         <a href="#contact" class="service-link">
-                            <span>Óçíàòü áîëüøå</span>
+                            <span>Узнать больше</span>
                             <i class="fas fa-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
 
-                    <!-- Óñëóãà 3 -->
+                    <!-- Услуга 3 -->
                     <div class="service-card">
                         <div class="service-icon">
                             <div class="icon-background"></div>
                             <i class="fas fa-tree" aria-hidden="true"></i>
                         </div>
-                        <h3 class="service-title">Ëàíäøàôòíûé äèçàéí</h3>
+                        <h3 class="service-title">Ландшафтный дизайн</h3>
                         <p class="service-description">
-                            Ïðîåêòèðîâàíèå è ðåàëèçàöèÿ ëàíäøàôòíûõ ðåøåíèé, ñîçäàíèå ãàðìîíè÷íîé ñðåäû âîêðóã àðõèòåêòóðíûõ îáúåêòîâ.
+                            Проектирование и реализация ландшафтных решений, создание гармоничной среды вокруг архитектурных объектов.
                         </p>
                         <ul class="service-list">
-                            <li><i class="fas fa-check" aria-hidden="true"></i> ×àñòíûå ñàäû</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Ïàðêîâûå çîíû</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Îáùåñòâåííûå ïðîñòðàíñòâà</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Êðîâåëüíîå îçåëåíåíèå</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Частные сады</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Парковые зоны</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Общественные пространства</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Кровельное озеленение</li>
                         </ul>
                         <a href="#contact" class="service-link">
-                            <span>Óçíàòü áîëüøå</span>
+                            <span>Узнать больше</span>
                             <i class="fas fa-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
 
-                    <!-- Óñëóãà 4 -->
+                    <!-- Услуга 4 -->
                     <div class="service-card">
                         <div class="service-icon">
                             <div class="icon-background"></div>
                             <i class="fas fa-hard-hat" aria-hidden="true"></i>
                         </div>
-                        <h3 class="service-title">Àâòîðñêèé íàäçîð</h3>
+                        <h3 class="service-title">Авторский надзор</h3>
                         <p class="service-description">
-                            Êîíòðîëü çà ðåàëèçàöèåé ïðîåêòà íà âñåõ ýòàïàõ ñòðîèòåëüñòâà äëÿ îáåñïå÷åíèÿ ñîîòâåòñòâèÿ ïðîåêòíîé äîêóìåíòàöèè.
+                            Контроль за реализацией проекта на всех этапах строительства для обеспечения соответствия проектной документации.
                         </p>
                         <ul class="service-list">
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Êîíòðîëü êà÷åñòâà</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Ñîãëàñîâàíèå ìàòåðèàëîâ</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Ðåøåíèå íà ìåñòå</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Îò÷åòíîñòü äëÿ êëèåíòà</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Контроль качества</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Согласование материалов</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Решение на месте</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Отчетность для клиента</li>
                         </ul>
                         <a href="#contact" class="service-link">
-                            <span>Óçíàòü áîëüøå</span>
+                            <span>Узнать больше</span>
                             <i class="fas fa-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
 
-                    <!-- Óñëóãà 5 -->
+                    <!-- Услуга 5 -->
                     <div class="service-card">
                         <div class="service-icon">
                             <div class="icon-background"></div>
                             <i class="fas fa-file-contract" aria-hidden="true"></i>
                         </div>
-                        <h3 class="service-title">Êîíñàëòèíã</h3>
+                        <h3 class="service-title">Консалтинг</h3>
                         <p class="service-description">
-                            Ïðîôåññèîíàëüíûå êîíñóëüòàöèè ïî âîïðîñàì àðõèòåêòóðû, ïëàíèðîâàíèÿ, âûáîðà ìàòåðèàëîâ è òåõíîëîãèé ñòðîèòåëüñòâà.
+                            Профессиональные консультации по вопросам архитектуры, планирования, выбора материалов и технологий строительства.
                         </p>
                         <ul class="service-list">
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Òåõíè÷åñêèé àóäèò</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Ïîäáîð ó÷àñòêîâ</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Ýêîíîìè÷åñêèé àíàëèç</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Þðèäè÷åñêîå ñîïðîâîæäåíèå</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Технический аудит</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Подбор участков</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Экономический анализ</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Юридическое сопровождение</li>
                         </ul>
                         <a href="#contact" class="service-link">
-                            <span>Óçíàòü áîëüøå</span>
+                            <span>Узнать больше</span>
                             <i class="fas fa-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
 
-                    <!-- Óñëóãà 6 -->
+                    <!-- Услуга 6 -->
                     <div class="service-card">
                         <div class="service-icon">
                             <div class="icon-background"></div>
                             <i class="fas fa-vr-cardboard" aria-hidden="true"></i>
                         </div>
-                        <h3 class="service-title">3D âèçóàëèçàöèÿ</h3>
+                        <h3 class="service-title">3D визуализация</h3>
                         <p class="service-description">
-                            Ñîçäàíèå ôîòîðåàëèñòè÷íûõ 3D âèçóàëèçàöèé, àíèìàöèé è VR òóðîâ äëÿ ïîëíîãî ïîãðóæåíèÿ â áóäóùèé ïðîåêò.
+                            Создание фотореалистичных 3D визуализаций, анимаций и VR туров для полного погружения в будущий проект.
                         </p>
                         <ul class="service-list">
-                            <li><i class="fas fa-check" aria-hidden="true"></i> 3D ìîäåëèðîâàíèå</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Àíèìàöèîííûå ðîëèêè</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> VR òóðû</li>
-                            <li><i class="fas fa-check" aria-hidden="true"></i> Ïëàíû è ÷åðòåæè</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> 3D моделирование</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Анимационные ролики</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> VR туры</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Планы и чертежи</li>
                         </ul>
                         <a href="#contact" class="service-link">
-                            <span>Óçíàòü áîëüøå</span>
+                            <span>Узнать больше</span>
                             <i class="fas fa-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- CTA áëîê â ñåêöèè óñëóã -->
+                <!-- CTA блок в секции услуг -->
                 <div class="services-cta">
                     <div class="cta-content">
-                        <h3 class="cta-title">Ãîòîâû íà÷àòü ïðîåêò?</h3>
-                        <p class="cta-text">Ñâÿæèòåñü ñ íàìè äëÿ áåñïëàòíîé êîíñóëüòàöèè è ðàñ÷åòà ñòîèìîñòè</p>
+                        <h3 class="cta-title">Готовы начать проект?</h3>
+                        <p class="cta-text">Свяжитесь с нами для бесплатной консультации и расчета стоимости</p>
                     </div>
                     <div class="cta-action">
                         <a href="#contact" class="btn btn-primary btn-large">
-                            <span>Îáñóäèòü ïðîåêò</span>
+                            <span>Обсудить проект</span>
                             <i class="fas fa-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -376,31 +376,31 @@
         <section class="section testimonials" id="testimonials">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">ÎÒÇÛÂÛ ÊËÈÅÍÒÎÂ</h2>
-                    <p class="section-subtitle">×òî ãîâîðÿò î íàñ òå, êòî óæå ðåàëèçîâàë ñâîè ïðîåêòû ñ Dkey Group</p>
+                    <h2 class="section-title">ОТЗЫВЫ КЛИЕНТОВ</h2>
+                    <p class="section-subtitle">Что говорят о нас те, кто уже реализовал свои проекты с Dkey Group</p>
                 </div>
 
                 <div class="testimonials-container">
                     <div class="testimonials-slider">
-                        <!-- Ñëàéä 1 -->
+                        <!-- Слайд 1 -->
                         <div class="testimonial-slide active">
                             <div class="testimonial-content">
                                 <div class="quote-icon">
                                     <i class="fas fa-quote-right" aria-hidden="true"></i>
                                 </div>
                                 <p class="testimonial-text">
-                                    "Ðàáîòà ñ Dkey Group ïðåâçîøëà âñå îæèäàíèÿ. Àðõèòåêòîðû íå ïðîñòî ñîçäàëè ïðîåêò,
-                                    à óñëûøàëè íàøè ïîæåëàíèÿ è ïðåâðàòèëè èõ â óíèêàëüíîå ïðîñòðàíñòâî.
-                                    Êàæäûé ýëåìåíò ïðîäóìàí äî ìåëî÷åé, à ïðîöåññ ðàáîòû áûë ïðîçðà÷íûì è êîìôîðòíûì."
+                                    "Работа с Dkey Group превзошла все ожидания. Архитекторы не просто создали проект,
+                                    а услышали наши пожелания и превратили их в уникальное пространство.
+                                    Каждый элемент продуман до мелочей, а процесс работы был прозрачным и комфортным."
                                 </p>
                                 <div class="testimonial-author">
                                     <div class="author-avatar">
                                         <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
-                                             alt="Àíäðåé Ñìèðíîâ" class="avatar-img" loading="lazy">
+                                             alt="Андрей Смирнов" class="avatar-img" loading="lazy">
                                     </div>
                                     <div class="author-info">
-                                        <h4 class="author-name">Àíäðåé Ñìèðíîâ</h4>
-                                        <p class="author-role">Äèðåêòîð ñòðîèòåëüíîé êîìïàíèè</p>
+                                        <h4 class="author-name">Андрей Смирнов</h4>
+                                        <p class="author-role">Директор строительной компании</p>
                                         <div class="author-rating">
                                             <i class="fas fa-star" aria-hidden="true"></i>
                                             <i class="fas fa-star" aria-hidden="true"></i>
@@ -413,25 +413,25 @@
                             </div>
                         </div>
 
-                        <!-- Ñëàéä 2 -->
+                        <!-- Слайд 2 -->
                         <div class="testimonial-slide">
                             <div class="testimonial-content">
                                 <div class="quote-icon">
                                     <i class="fas fa-quote-right" aria-hidden="true"></i>
                                 </div>
                                 <p class="testimonial-text">
-                                    "Ðåøèëè îáðàòèòüñÿ â Dkey Group äëÿ ïðîåêòèðîâàíèÿ çàãîðîäíîãî äîìà.
-                                    Ðåçóëüòàò — ïîòðÿñàþùàÿ ñîâðåìåííàÿ âèëëà, êîòîðàÿ èäåàëüíî âïèñàëàñü â ëàíäøàôò.
-                                    Îñîáåííî âïå÷àòëèëî âíèìàíèå ê äåòàëÿì è èñïîëüçîâàíèå ýêîëîãè÷íûõ ìàòåðèàëîâ."
+                                    "Решили обратиться в Dkey Group для проектирования загородного дома.
+                                    Результат — потрясающая современная вилла, которая идеально вписалась в ландшафт.
+                                    Особенно впечатлило внимание к деталям и использование экологичных материалов."
                                 </p>
                                 <div class="testimonial-author">
                                     <div class="author-avatar">
                                         <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
-                                             alt="Åëåíà Ïåòðîâà" class="avatar-img" loading="lazy">
+                                             alt="Елена Петрова" class="avatar-img" loading="lazy">
                                     </div>
                                     <div class="author-info">
-                                        <h4 class="author-name">Åëåíà Ïåòðîâà</h4>
-                                        <p class="author-role">×àñòíûé êëèåíò</p>
+                                        <h4 class="author-name">Елена Петрова</h4>
+                                        <p class="author-role">Частный клиент</p>
                                         <div class="author-rating">
                                             <i class="fas fa-star" aria-hidden="true"></i>
                                             <i class="fas fa-star" aria-hidden="true"></i>
@@ -444,25 +444,25 @@
                             </div>
                         </div>
 
-                        <!-- Ñëàéä 3 -->
+                        <!-- Слайд 3 -->
                         <div class="testimonial-slide">
                             <div class="testimonial-content">
                                 <div class="quote-icon">
                                     <i class="fas fa-quote-right" aria-hidden="true"></i>
                                 </div>
                                 <p class="testimonial-text">
-                                    "Êàê äåâåëîïåðó íàì âàæíû ñðîêè è êà÷åñòâî. Dkey Group âûïîëíèëà ïðîåêòèðîâàíèå
-                                    æèëîãî êîìïëåêñà íà 30% áûñòðåå ïëàíà, ïðè ýòîì âñå òåõíè÷åñêèå òðåáîâàíèÿ áûëè ñîáëþäåíû.
-                                    Ïðîôåññèîíàëèçì êîìàíäû íà âûñøåì óðîâíå."
+                                    "Как девелоперу нам важны сроки и качество. Dkey Group выполнила проектирование
+                                    жилого комплекса на 30% быстрее плана, при этом все технические требования были соблюдены.
+                                    Профессионализм команды на высшем уровне."
                                 </p>
                                 <div class="testimonial-author">
                                     <div class="author-avatar">
                                         <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
-                                             alt="Èâàí Êîçëîâ" class="avatar-img" loading="lazy">
+                                             alt="Иван Козлов" class="avatar-img" loading="lazy">
                                     </div>
                                     <div class="author-info">
-                                        <h4 class="author-name">Èâàí Êîçëîâ</h4>
-                                        <p class="author-role">CEO äåâåëîïåðñêîé êîìïàíèè</p>
+                                        <h4 class="author-name">Иван Козлов</h4>
+                                        <p class="author-role">CEO девелоперской компании</p>
                                         <div class="author-rating">
                                             <i class="fas fa-star" aria-hidden="true"></i>
                                             <i class="fas fa-star" aria-hidden="true"></i>
@@ -475,25 +475,25 @@
                             </div>
                         </div>
 
-                        <!-- Ñëàéä 4 -->
+                        <!-- Слайд 4 -->
                         <div class="testimonial-slide">
                             <div class="testimonial-content">
                                 <div class="quote-icon">
                                     <i class="fas fa-quote-right" aria-hidden="true"></i>
                                 </div>
                                 <p class="testimonial-text">
-                                    "Çàêàçûâàëè äèçàéí èíòåðüåðà ðåñòîðàíà. Dkey Group ñîçäàëà óíèêàëüíóþ àòìîñôåðó,
-                                    êîòîðàÿ ñòàëà íàøåé ôèøêîé. Ïîñåòèòåëè îòìå÷àþò óþò è ñòèëü.
-                                    Áèçíåñ âûðîñ íà 40% ïîñëå ðåäèçàéíà!"
+                                    "Заказывали дизайн интерьера ресторана. Dkey Group создала уникальную атмосферу,
+                                    которая стала нашей фишкой. Посетители отмечают уют и стиль.
+                                    Бизнес вырос на 40% после редизайна!"
                                 </p>
                                 <div class="testimonial-author">
                                     <div class="author-avatar">
                                         <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
-                                             alt="Îëüãà Èâàíîâà" class="avatar-img" loading="lazy">
+                                             alt="Ольга Иванова" class="avatar-img" loading="lazy">
                                     </div>
                                     <div class="author-info">
-                                        <h4 class="author-name">Îëüãà Èâàíîâà</h4>
-                                        <p class="author-role">Âëàäåëåö ðåñòîðàíà</p>
+                                        <h4 class="author-name">Ольга Иванова</h4>
+                                        <p class="author-role">Владелец ресторана</p>
                                         <div class="author-rating">
                                             <i class="fas fa-star" aria-hidden="true"></i>
                                             <i class="fas fa-star" aria-hidden="true"></i>
@@ -507,28 +507,28 @@
                         </div>
                     </div>
 
-                    <!-- Íàâèãàöèÿ ñëàéäåðà -->
+                    <!-- Навигация слайдера -->
                     <div class="slider-navigation">
-                        <button class="slider-prev" aria-label="Ïðåäûäóùèé îòçûâ">
+                        <button class="slider-prev" aria-label="Предыдущий отзыв">
                             <i class="fas fa-chevron-left" aria-hidden="true"></i>
                         </button>
 
                         <div class="slider-dots">
-                            <button class="slider-dot active" data-slide="0" aria-label="Ïåðåéòè ê îòçûâó 1"></button>
-                            <button class="slider-dot" data-slide="1" aria-label="Ïåðåéòè ê îòçûâó 2"></button>
-                            <button class="slider-dot" data-slide="2" aria-label="Ïåðåéòè ê îòçûâó 3"></button>
-                            <button class="slider-dot" data-slide="3" aria-label="Ïåðåéòè ê îòçûâó 4"></button>
+                            <button class="slider-dot active" data-slide="0" aria-label="Перейти к отзыву 1"></button>
+                            <button class="slider-dot" data-slide="1" aria-label="Перейти к отзыву 2"></button>
+                            <button class="slider-dot" data-slide="2" aria-label="Перейти к отзыву 3"></button>
+                            <button class="slider-dot" data-slide="3" aria-label="Перейти к отзыву 4"></button>
                         </div>
 
-                        <button class="slider-next" aria-label="Ñëåäóþùèé îòçûâ">
+                        <button class="slider-next" aria-label="Следующий отзыв">
                             <i class="fas fa-chevron-right" aria-hidden="true"></i>
                         </button>
                     </div>
                 </div>
 
-                <!-- Ëîãîòèïû êëèåíòîâ -->
+                <!-- Логотипы клиентов -->
                 <div class="clients-logos">
-                    <div class="logos-title">Íàì äîâåðÿþò</div>
+                    <div class="logos-title">Нам доверяют</div>
                     <div class="logos-container">
                         <div class="logo-item">
                             <span class="logo-text">LUXE</span>
@@ -559,26 +559,26 @@
         <section class="section contact" id="contact">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">ÑÂßÆÈÒÅÑÜ Ñ ÍÀÌÈ</h2>
-                    <p class="section-subtitle">Ãîòîâû îáñóäèòü âàø ïðîåêò? Çàïîëíèòå ôîðìó èëè ñâÿæèòåñü íàïðÿìóþ</p>
+                    <h2 class="section-title">СВЯЖИТЕСЬ С НАМИ</h2>
+                    <p class="section-subtitle">Готовы обсудить ваш проект? Заполните форму или свяжитесь напрямую</p>
                 </div>
 
                 <div class="contact-container">
-                    <!-- Êîíòàêòíàÿ èíôîðìàöèÿ -->
+                    <!-- Контактная информация -->
                     <div class="contact-info">
                         <div class="info-card">
                             <div class="info-icon">
                                 <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                             </div>
-                            <h3 class="info-title">Àäðåñ</h3>
-                            <p class="info-text">Ìîñêâà, óë. Òâåðñêàÿ, ä. 10, îôèñ 305</p>
+                            <h3 class="info-title">Адрес</h3>
+                            <p class="info-text">Москва, ул. Тверская, д. 10, офис 305</p>
                         </div>
 
                         <div class="info-card">
                             <div class="info-icon">
                                 <i class="fas fa-phone" aria-hidden="true"></i>
                             </div>
-                            <h3 class="info-title">Òåëåôîí</h3>
+                            <h3 class="info-title">Телефон</h3>
                             <p class="info-text">
                                 <a href="tel:+78001234567" class="info-link">8 800 123-45-67</a>
                             </p>
@@ -598,13 +598,13 @@
                             <div class="info-icon">
                                 <i class="fas fa-clock" aria-hidden="true"></i>
                             </div>
-                            <h3 class="info-title">×àñû ðàáîòû</h3>
-                            <p class="info-text">Ïí-Ïò: 9:00-19:00<br>Ñá: 10:00-16:00</p>
+                            <h3 class="info-title">Часы работы</h3>
+                            <p class="info-text">Пн-Пт: 9:00-19:00<br>Сб: 10:00-16:00</p>
                         </div>
 
-                        <!-- Ñîöèàëüíûå ñåòè -->
+                        <!-- Социальные сети -->
                         <div class="contact-social">
-                            <h4 class="social-title">Ìû â ñîöñåòÿõ</h4>
+                            <h4 class="social-title">Мы в соцсетях</h4>
                             <div class="social-links">
                                 <a href="#" class="social-link" aria-label="Instagram">
                                     <i class="fab fa-instagram"></i>
@@ -625,78 +625,78 @@
                         </div>
                     </div>
 
-                    <!-- Ôîðìà îáðàòíîé ñâÿçè -->
+                    <!-- Форма обратной связи -->
                     <div class="contact-form">
                         <form id="contactForm" class="form">
                             <div class="form-group">
-                                <label for="name" class="form-label">Èìÿ *</label>
+                                <label for="name" class="form-label">Имя *</label>
                                 <input type="text" id="name" name="name" class="form-input" required
-                                       placeholder="Ââåäèòå âàøå èìÿ">
+                                       placeholder="Введите ваше имя">
                                 <div class="form-error"></div>
                             </div>
 
                             <div class="form-group">
                                 <label for="email" class="form-label">Email *</label>
                                 <input type="email" id="email" name="email" class="form-input" required
-                                       placeholder="Ââåäèòå âàø email">
+                                       placeholder="Введите ваш email">
                                 <div class="form-error"></div>
                             </div>
 
                             <div class="form-group">
-                                <label for="phone" class="form-label">Òåëåôîí</label>
+                                <label for="phone" class="form-label">Телефон</label>
                                 <input type="tel" id="phone" name="phone" class="form-input"
                                        placeholder="+7 (999) 123-45-67">
                                 <div class="form-error"></div>
                             </div>
 
                             <div class="form-group">
-                                <label for="service" class="form-label">Óñëóãà</label>
+                                <label for="service" class="form-label">Услуга</label>
                                 <select id="service" name="service" class="form-select">
-                                    <option value="">Âûáåðèòå óñëóãó</option>
-                                    <option value="architecture">Àðõèòåêòóðíîå ïðîåêòèðîâàíèå</option>
-                                    <option value="interior">Äèçàéí èíòåðüåðîâ</option>
-                                    <option value="landscape">Ëàíäøàôòíûé äèçàéí</option>
-                                    <option value="supervision">Àâòîðñêèé íàäçîð</option>
-                                    <option value="consulting">Êîíñàëòèíã</option>
-                                    <option value="visualization">3D âèçóàëèçàöèÿ</option>
+                                    <option value="">Выберите услугу</option>
+                                    <option value="architecture">Архитектурное проектирование</option>
+                                    <option value="interior">Дизайн интерьеров</option>
+                                    <option value="landscape">Ландшафтный дизайн</option>
+                                    <option value="supervision">Авторский надзор</option>
+                                    <option value="consulting">Консалтинг</option>
+                                    <option value="visualization">3D визуализация</option>
                                 </select>
                                 <div class="form-error"></div>
                             </div>
 
                             <div class="form-group">
-                                <label for="budget" class="form-label">Áþäæåò ïðîåêòà</label>
+                                <label for="budget" class="form-label">Бюджет проекта</label>
                                 <div class="budget-slider">
                                     <div class="slider-track"></div>
                                     <input type="range" id="budget" name="budget"
                                            min="0" max="5" value="2" class="slider-input">
                                     <div class="slider-labels">
-                                        <span>äî 500ê</span>
-                                        <span>500ê-1ì</span>
-                                        <span>1-2ì</span>
-                                        <span>2-5ì</span>
-                                        <span>5-10ì</span>
-                                        <span>10ì+</span>
+                                        <span>до 500к</span>
+                                        <span>500к-1м</span>
+                                        <span>1-2м</span>
+                                        <span>2-5м</span>
+                                        <span>5-10м</span>
+                                        <span>10м+</span>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label for="message" class="form-label">Ñîîáùåíèå *</label>
+                                <label for="message" class="form-label">Сообщение *</label>
                                 <textarea id="message" name="message" class="form-textarea" required
-                                          placeholder="Îïèøèòå âàø ïðîåêò èëè çàäàéòå âîïðîñ" rows="5"></textarea>
+                                          placeholder="Опишите ваш проект или задайте вопрос" rows="5"></textarea>
                                 <div class="form-error"></div>
                             </div>
 
                             <div class="form-group form-checkbox">
                                 <input type="checkbox" id="privacy" name="privacy" class="checkbox-input" required>
                                 <label for="privacy" class="checkbox-label">
-                                    ß ñîãëàñåí íà îáðàáîòêó ïåðñîíàëüíûõ äàííûõ
+                                    Я согласен на обработку персональных данных
                                 </label>
                                 <div class="form-error"></div>
                             </div>
 
                             <button type="submit" class="btn btn-primary btn-submit">
-                                <span class="btn-text">Îòïðàâèòü ñîîáùåíèå</span>
+                                <span class="btn-text">Отправить сообщение</span>
                                 <span class="btn-loader">
                                     <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
                                 </span>
@@ -705,7 +705,7 @@
 
                             <div class="form-success">
                                 <i class="fas fa-check-circle" aria-hidden="true"></i>
-                                <p>Ñîîáùåíèå îòïðàâëåíî! Ìû ñâÿæåìñÿ ñ âàìè â òå÷åíèå 24 ÷àñîâ.</p>
+                                <p>Сообщение отправлено! Мы свяжемся с вами в течение 24 часов.</p>
                             </div>
                         </form>
                     </div>
@@ -714,9 +714,8 @@
         </section>
     </main>
 
-    <!-- Footer áóäåò äîáàâëåí ïîçæå â îòäåëüíîì ôàéëå -->
+    <!-- Footer будет добавлен позже в отдельном файле -->
 
     <script src="script.js" defer></script>
 </body>
-
 </html>
