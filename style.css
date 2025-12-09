@@ -1,6 +1,6 @@
-/* ===== БАЗОВЫЕ СТИЛИ И ПЕРЕМЕННЫЕ ===== */
+/* ===== Р‘РђР—РћР’Р«Р• РЎРўРР›Р Р РџР•Р Р•РњР•РќРќР«Р• ===== */
 :root {
-    /* Цветовая палитра Dkey Group */
+    /* Р¦РІРµС‚РѕРІР°СЏ РїР°Р»РёС‚СЂР° Dkey Group */
     --primary-color: #000000;
     --accent-color: #FFD700;
     --accent-hover: #FFED4E;
@@ -10,15 +10,15 @@
     --text-dark: #000000;
     --text-gray: #888888;
     --border-color: rgba(255, 255, 255, 0.1);
-    /* Тени */
+    /* РўРµРЅРё */
     --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 5px 20px rgba(0, 0, 0, 0.2);
     --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.3);
-    /* Скругления */
+    /* РЎРєСЂСѓРіР»РµРЅРёСЏ */
     --radius-sm: 4px;
     --radius-md: 8px;
     --radius-lg: 16px;
-    /* Анимации */
+    /* РђРЅРёРјР°С†РёРё */
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
     --transition-slow: 0.5s ease;
@@ -142,7 +142,7 @@ body {
     align-items: center;
 }
 
-/* Логотип */
+/* Р›РѕРіРѕС‚РёРї */
 .logo {
     display: flex;
     flex-direction: column;
@@ -171,7 +171,7 @@ body {
     text-transform: uppercase;
 }
 
-/* Навигационное меню */
+/* РќР°РІРёРіР°С†РёРѕРЅРЅРѕРµ РјРµРЅСЋ */
 .nav-menu {
     display: flex;
     list-style: none;
@@ -229,7 +229,7 @@ body {
         transform-origin: left;
     }
 
-/* Языковой переключатель */
+/* РЇР·С‹РєРѕРІРѕР№ РїРµСЂРµРєР»СЋС‡Р°С‚РµР»СЊ */
 .language-switcher {
     display: flex;
     align-items: center;
@@ -264,7 +264,7 @@ body {
     gap: 30px;
 }
 
-/* Гамбургер меню */
+/* Р“Р°РјР±СѓСЂРіРµСЂ РјРµРЅСЋ */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -397,7 +397,7 @@ body {
     }
 }
 
-/* Кнопки */
+/* РљРЅРѕРїРєРё */
 .hero-actions {
     display: flex;
     gap: 20px;
@@ -518,7 +518,7 @@ body {
     }
 }
 
-/* Социальные сети в hero */
+/* РЎРѕС†РёР°Р»СЊРЅС‹Рµ СЃРµС‚Рё РІ hero */
 .hero-social {
     position: absolute;
     right: 40px;
@@ -618,7 +618,7 @@ body {
         margin-bottom: 40px;
     }
 
-/* Статистика */
+/* РЎС‚Р°С‚РёСЃС‚РёРєР° */
 .about-stats {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -654,7 +654,7 @@ body {
     color: var(--text-gray);
 }
 
-/* Изображение */
+/* РР·РѕР±СЂР°Р¶РµРЅРёРµ */
 .about-image {
     position: relative;
     opacity: 0;
@@ -713,7 +713,7 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Особенности */
+/* РћСЃРѕР±РµРЅРЅРѕСЃС‚Рё */
 .about-features {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -962,7 +962,7 @@ body {
         transform: translateX(5px);
     }
 
-/* CTA блок в services */
+/* CTA Р±Р»РѕРє РІ services */
 .services-cta {
     background: linear-gradient(135deg, rgba(255, 215, 0, 0.05), rgba(255, 215, 0, 0.02));
     border: 1px solid var(--border-color);
@@ -1159,7 +1159,7 @@ body {
     font-size: 14px;
 }
 
-/* Навигация слайдера */
+/* РќР°РІРёРіР°С†РёСЏ СЃР»Р°Р№РґРµСЂР° */
 .slider-navigation {
     display: flex;
     align-items: center;
@@ -1219,7 +1219,7 @@ body {
         transform: scale(1.2);
     }
 
-/* Логотипы клиентов */
+/* Р›РѕРіРѕС‚РёРїС‹ РєР»РёРµРЅС‚РѕРІ */
 .clients-logos {
     padding-top: 80px;
     border-top: 1px solid var(--border-color);
@@ -1293,7 +1293,7 @@ body {
     gap: 80px;
 }
 
-/* Контактная информация */
+/* РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ */
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -1379,7 +1379,7 @@ body {
         color: var(--accent-color);
     }
 
-/* Социальные сети в контактах */
+/* РЎРѕС†РёР°Р»СЊРЅС‹Рµ СЃРµС‚Рё РІ РєРѕРЅС‚Р°РєС‚Р°С… */
 .contact-social {
     padding-top: 40px;
     border-top: 1px solid var(--border-color);
@@ -1419,7 +1419,7 @@ body {
         transform: translateY(-3px);
     }
 
-/* Форма обратной связи */
+/* Р¤РѕСЂРјР° РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё */
 .contact-form {
     opacity: 0;
     transform: translateX(30px);
@@ -1501,7 +1501,7 @@ body {
     padding-right: 50px;
 }
 
-/* Слайдер бюджета */
+/* РЎР»Р°Р№РґРµСЂ Р±СЋРґР¶РµС‚Р° */
 .budget-slider {
     padding: 20px 0 40px;
 }
@@ -1544,7 +1544,7 @@ body {
             color: var(--accent-color);
         }
 
-/* Чекбокс */
+/* Р§РµРєР±РѕРєСЃ */
 .form-checkbox {
     display: flex;
     align-items: flex-start;
@@ -1577,7 +1577,7 @@ body {
             text-decoration: underline;
         }
 
-/* Кнопка отправки */
+/* РљРЅРѕРїРєР° РѕС‚РїСЂР°РІРєРё */
 .btn-submit {
     width: 100%;
     padding: 20px;
@@ -1621,7 +1621,7 @@ body {
     display: block;
 }
 
-/* Сообщения об ошибках и успехе */
+/* РЎРѕРѕР±С‰РµРЅРёСЏ РѕР± РѕС€РёР±РєР°С… Рё СѓСЃРїРµС…Рµ */
 .form-error {
     font-size: 12px;
     color: #ff4757;
@@ -1668,7 +1668,7 @@ body {
         margin: 0;
     }
 
-/* ===== МЕДИА-ЗАПРОСЫ ===== */
+/* ===== РњР•Р”РРђ-Р—РђРџР РћРЎР« ===== */
 @media (max-width: 1200px) {
     .hero-title {
         font-size: 56px;
